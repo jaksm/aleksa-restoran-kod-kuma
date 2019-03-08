@@ -6,38 +6,38 @@
   <description>Jelovnik</description>
   <item>
     <naziv>Gurmanska pljeskavica.</naziv>
-    <link>https://jaksm.github.io/web-programiranje-1/index.html</link>
+    <link>https://jaksm.github.io/aleksa-resoran-kod-kuma/index.html</link>
     <opis>Od čistog junećeg mesa, pripremljenog na zanatski način sa dodatkom slaninice i kačkavalja, pikantno, poslužena sa pečenim krompirom.
     </opis>
     <cena valuta="RSD">270</cena>
   </item>
     <item>
     <naziv>Juneci medaljoni</naziv>
-    <link>https://jaksm.github.io/web-programiranje-1/index.html</link>
+    <link>https://jaksm.github.io/aleksa-resoran-kod-kuma/index.html</link>
     <opis>Punjeni parčići junećeg filea goveđom pršutom, kačkavaljem I kiselim krastavčićima u sosu od šampinjona posluženo sa krompirom u ljusci.</opis>
     <cena valuta="RSD">345</cena>
   </item>
   <item>
     <naziv>Karadjordjeva</naziv>
-    <link>https://jaksm.github.io/web-programiranje-1/index.html</link>
+    <link>https://jaksm.github.io/aleksa-resoran-kod-kuma/index.html</link>
     <opis>Pohovani svinjski file napunjen zrelim kajmakom, poslužena sa pomfritom I tartar sosom.</opis>
     <cena valuta="RSD">360</cena>
   </item>
   <item>
     <naziv>Kobasice.</naziv>
-    <link>https://jaksm.github.io/web-programiranje-1/index.html</link>
+    <link>https://jaksm.github.io/aleksa-resoran-kod-kuma/index.html</link>
     <opis>Naša manufaktura od svinjske plećke i male tajne, poslužene sa pečenim krompirom i senfom.</opis>
     <cena valuta="RSD">230</cena>
   </item>
   <item>
     <naziv>Pileci medaljoni.</naziv>
-    <link>https://jaksm.github.io/web-programiranje-1/index.html</link>
+    <link>https://jaksm.github.io/aleksa-resoran-kod-kuma/index.html</link>
     <opis>Punjeni šunkom i kačkavaljem, rolovani slaninicom, posluženi sa krompirom sač.</opis>
     <cena valuta="RSD">150</cena>
   </item>
   <item>
     <naziv>Svinjski vrat.</naziv>
-    <link>https://jaksm.github.io/web-programiranje-1/index.html</link>
+    <link>https://jaksm.github.io/aleksa-resoran-kod-kuma/index.html</link>
     <opis>Svinjski vrat poslužen sa pečenim krompirom. </opis>
     <cena valuta="RSD">250</cena>
   </item>
