@@ -193,14 +193,14 @@ header > .social > a > i {
 .jela {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-evenly;
   flex-wrap: wrap;
   margin-top: 50px -20px;
 }
 
 .card {
   background-color: white;
-  flex-basis: calc(100% / 3 - 40px);
+  flex-basis: calc(100% / 3 - 100px);
   margin: 20px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.12), 0 2px 4px 0 rgba(0, 0, 0, 0.08);
   border-radius: 10px;
