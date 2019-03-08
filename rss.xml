@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+	<channel>
+  <title>Restoran kod kuma - jelovnik</title>
+  <link>https://jaksm.github.io/aleksa-resoran-kod-kuma/index.html</link>
+  <description>Jelovnik</description>
+  <item>
+    <naziv>Naziv jela ovde</naziv>
+    <link>https://jaksm.github.io/web-programiranje-1/index.html</link>
+    <opis>Opis jela ovde</opis>
+    <cena valuta="RSD">250</cena>
+  </item>
+    <item>
+    <naziv>Naziv jela ovde</naziv>
+    <link>https://jaksm.github.io/web-programiranje-1/index.html</link>
+    <opis>Opis jela ovde</opis>
+    <cena valuta="RSD">250</cena>
+  </item>
+  <item>
+    <naziv>Naziv jela ovde</naziv>
+    <link>https://jaksm.github.io/web-programiranje-1/index.html</link>
+    <opis>Opis jela ovde</opis>
+    <cena valuta="RSD">250</cena>
+  </item>
+  <item>
+    <naziv>Naziv jela ovde</naziv>
+    <link>https://jaksm.github.io/web-programiranje-1/index.html</link>
+    <opis>Opis jela ovde</opis>
+    <cena valuta="RSD">250</cena>
+  </item>
+  <item>
+    <naziv>Naziv jela ovde</naziv>
+    <link>https://jaksm.github.io/web-programiranje-1/index.html</link>
+    <opis>Opis jela ovde</opis>
+    <cena valuta="RSD">250</cena>
+  </item>
+  <item>
+    <naziv>Naziv jela ovde</naziv>
+    <link>https://jaksm.github.io/web-programiranje-1/index.html</link>
+    <opis>Opis jela ovde</opis>
+    <cena valuta="RSD">250</cena>
+  </item>
+	</channel>
+</rss>

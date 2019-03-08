@@ -1,0 +1,321 @@
+/* GENERAL */
+@import url("https://fonts.googleapis.com/css?family=Open+Sans|Pacifico&subset=latin-ext");
+
+body {
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+}
+
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Pacifico", cursive;
+  color: #f3461c;
+  text-shadow: 0 0 0 3px rgba(52, 144, 220, 0.5);
+}
+
+h1 {
+  font-size: 4rem;
+  letter-spacing: 3px;
+}
+
+h2 {
+  font-size: 2.75rem;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+@media screen and (min-width: 576px) {
+  .container {
+    max-width: 576px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .container {
+    max-width: 992px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .container {
+    max-width: 1500px;
+  }
+}
+
+.button {
+  padding: 1.25em 3em;
+  border-radius: 10px;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 1px;
+  font-size: 0.9rem;
+  background-color: #f3461c;
+  color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.12), 0 2px 4px 0 rgba(0, 0, 0, 0.08);
+  transition: all 0.3s ease;
+}
+
+.button:hover {
+  background-color: white;
+  color: #f3461c;
+}
+
+/* Navigacija */
+nav {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.main-nav,
+.main-nav > ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.main-nav {
+  padding: 40px 0;
+  box-sizing: border-box;
+}
+
+.main-nav > ul {
+  padding: 0 -1.25em;
+}
+
+.main-nav > ul > li {
+  padding: 0 1.25em;
+}
+
+.main-nav > ul > li > a {
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 0.85rem;
+  color: #fdf4e4;
+  transition: color 0.3s ease;
+}
+
+.main-nav > ul > li > a:hover {
+  color: #f3461c;
+}
+
+.logo {
+  font-size: 2.5rem;
+  font-family: "Pacifico", cursive;
+  color: #f3461c;
+}
+
+/* Header */
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-image: url("../images/header.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  color: white;
+}
+
+header > .header-text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: rgba(255, 255, 255, 0.65);
+  width: 100vw;
+  padding: 3em 0;
+}
+
+header > .header-text > h1 {
+  margin-bottom: 0.5rem;
+}
+
+header > .header-text > p {
+  margin-bottom: 1.5rem;
+}
+
+header > .social {
+  position: absolute;
+  bottom: 40px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 2em;
+}
+
+header > .social > a:hover {
+  color: #f3461c;
+}
+
+header > .social > a > i {
+  margin: 0 1rem;
+}
+
+/* Jelovnik */
+
+#jelovnik > .container {
+  text-align: center;
+  padding: 100px 0;
+}
+
+.jela {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 50px -20px;
+}
+
+.card {
+  background-color: white;
+  flex-basis: calc(100% / 3 - 40px);
+  margin: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.12), 0 2px 4px 0 rgba(0, 0, 0, 0.08);
+  border-radius: 10px;
+  padding: 2rem;
+  box-sizing: border-box;
+}
+
+.card > img {
+  width: 300px;
+  margin-bottom: 2rem;
+}
+
+.card > .card-title {
+  font-size: 1.75rem;
+  margin-bottom: 0.5em;
+}
+
+.card > p {
+  line-height: 1.5;
+  margin-bottom: 2rem;
+}
+
+/* O nama */
+#onama {
+  height: 75vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url("../images/onama.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  color: white;
+  border-top: 60px solid rgba(0, 0, 0, 0.753);
+}
+
+.onama-text {
+  max-width: 600px;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  padding: 4rem 2rem;
+  text-align: center;
+}
+
+/* kontakt/footer */
+footer {
+  background-color: rgb(20, 20, 20);
+  color: white;
+  padding: 20px 0;
+}
+
+footer > .container > .linkovi {
+  padding: 80px 0;
+  display: flex;
+  justify-content: space-around;
+}
+
+footer > .container > .linkovi > ul > li {
+  padding: 0.5em 0;
+}
+
+footer > .container > .linkovi > .kontakt {
+  text-align: center;
+}
+
+footer > .container > .copy {
+  text-align: center;
+}
+
+footer > .container > form {
+  text-align: center;
+  padding: 50px 0;
+}
+
+footer > .container > form > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1em 0;
+}
+
+input {
+  padding: 1em;
+  font-family: "Open Sans", sans-serif;
+  border-radius: 10px;
+  border: none;
+  margin-top: 5px;
+  width: 250px;
+  outline: none;
+}
+
+.o-autoru {
+  background-color: rgb(20, 20, 20);
+}
+
+.o-autoru > nav {
+  background-color: rgb(20, 20, 20);
+}
+
+.o-autoru > section {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: white;
+}
+
+.o-autoru > section > .content {
+  display: flex;
+  max-width: 750px;
+  margin-top: 50px;
+}
+
+.o-autoru > section > .content > img {
+  margin-right: 20px;
+}
